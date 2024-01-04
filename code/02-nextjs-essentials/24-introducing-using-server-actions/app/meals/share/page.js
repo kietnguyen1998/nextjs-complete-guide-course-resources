@@ -27,6 +27,8 @@ export default function ShareMealPage() {
       </header>
       <main className={classes.main}>
         <form className={classes.form} action={shareMeal}>
+          {/* this will not reload the page  */}
+
           <div className={classes.row}>
             <p>
               <label htmlFor="name">Your name</label>
