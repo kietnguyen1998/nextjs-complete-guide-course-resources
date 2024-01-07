@@ -4,6 +4,9 @@ import { notFound } from 'next/navigation';
 import { getMeal } from '@/lib/meals';
 import classes from './page.module.css';
 
+
+//meta data for dynamic page , must name like this
+
 export async function generateMetadata({ params }) {
   const meal = getMeal(params.mealSlug);
 
